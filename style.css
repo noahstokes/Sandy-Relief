@@ -1,0 +1,90 @@
+/*
+Theme Name: Red Cross
+Author: Yaron Schoen
+Author URL: http://yaronschoen.com
+*/
+
+@charset "UTF-8";
+
+
+/* Reset
+-------------------------------------------------------------- */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
+table{border-collapse:separate;border-spacing:0;margin-bottom:1.4em;}
+caption,th,td{text-align:left;font-weight:400;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+blockquote,q{quotes:;}
+a img{border:0 none;}
+
+
+
+
+/* Page
+-------------------------------------------------------------- */
+html, body {background-color: white;}
+.page {max-width: 600px;width: 92%; margin: auto; padding-left: 4%;padding-right: 4%;}
+
+/* Floats  */
+.center_text {text-align: center}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix:after{clear:both;content:'';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html
+.clearfix,*:first-child+html .clearfix{zoom:1}
+
+/* HR */
+hr {border-top: 1px solid #f1f1f1; border-bottom: 0; border-right: 0; border-left: 0; margin-top: 30px; margin-bottom: 30px;}
+
+/* Images */
+img {width: 100%}
+
+/* Selection */
+::-moz-selection{ background: #ebebeb; color: #454545; text-shadow: none; }
+::-webkit-selection{ background: #ebebeb; color: #454545; text-shadow: none; }
+::selection { background: #ebebeb; color: #454545; text-shadow: none; } 
+
+
+
+
+/* typography
+-------------------------------------------------------------- */
+body {color: #494949; font: normal 20px/32px "ff-tisa-web-pro", Georgia, Times, "Times New Roman", serif;}
+
+/* P */
+p {margin-bottom: 30px;}
+
+/* General */
+.small {font-size: 14px; line-height: 24px}
+
+/* A */
+a { -moz-transition: all 0.2s ease-in-out;  -o-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; text-decoration: none}
+a:hover { -moz-transition: all 0.2s ease-in-out;  -o-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; text-decoration: none}
+a.text-link {border: 0; color: #fa0015;}
+a.text-link:hover {border: 0; color: #e10013;}
+
+a.donate {background-color: #fa0015; color: white; padding: 10px 40px; border-bottom: 0; display: inline-block;}
+a.donate:hover {background-color: #000000;}
+
+
+
+
+
+/* Media Queries
+-------------------------------------------------------------- */
+
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+	.page {max-width: 600px;width: 84%; margin: auto; padding-left: 8%;padding-right: 8%;}
+	p {margin-bottom: 20px;}
+}
+
+@media screen and (max-width: 480px) {
+	body {color: #494949; font: normal 16px/24px "ff-tisa-web-pro", Georgia, Times, "Times New Roman", serif;}
+	.page {max-width: 600px;width: 84%; margin: auto; padding-left: 8%;padding-right: 8%;}
+	p {margin-bottom: 20px;}
+
+}
+
+
+
+
+
