@@ -22,7 +22,7 @@ Usage is simple:
 
 1) Edit the index.html to point to your homepage for the 'Contine to the site' link. 
 
-2) Adjust the path to the style.css.
+2) Adjust the path to the style.css (if you place it somewhere other than your root).
 
 3) Upload to your server.
 
