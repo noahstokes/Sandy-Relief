@@ -61,7 +61,7 @@ a:hover { -moz-transition: all 0.2s ease-in-out;  -o-transition: all 0.2s ease-i
 a.text-link {border: 0; color: #fa0015;}
 a.text-link:hover {border: 0; color: #e10013;}
 
-a.donate {background-color: #fa0015; color: white; padding: 10px 40px; border-bottom: 0; display: inline-block;}
+a.donate {background-color: #fa0015; color: white; padding: 10px 40px; border-bottom: 0; display: inline-block; margin-bottom: 10px;}
 a.donate:hover {background-color: #000000;}
 
 
