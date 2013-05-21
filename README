@@ -1,23 +1,23 @@
 =============================
 
-Sandy Relief
-Version 1.0
-November 1, 2012
+Moore Relief
+Version 2.0
+May 21, 2013
 Created by Yaron Schoen, Noah Stokes
 Original: www.yaronschoen.com
 License: MIT/GPL
 
-https://github.com/noahstokes/sandy-relief
+https://github.com/noahstokes/sandy-relief/tree/Moore-Relief
 
 =============================
 
-This is a simple splash page that you can put on your website to redirect visitors to donate to the Red Cross to help support surivivors of Sandy. This is licensed under the MIT and GPL licenses. 
+This is a simple splash page that you can put on your website to redirect visitors to donate to the Red Cross to help support surivivors of Moore. This is licensed under the MIT and GPL licenses.
 
 See the original: http://yaronschoen.com
 
 Usage is simple:
 
-1) Edit the index.html to point to your homepage for the 'Contine to the site' link. 
+1) Edit the index.html to point to your homepage for the 'Contine to the site' link.
 
 2) Adjust the path to the style.css (if you place it somewhere other than your root).
 
